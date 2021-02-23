@@ -1,0 +1,18 @@
+.container{
+    height: 100vh; /*vh é a altura total da viewport*/
+    max-width: 992px;
+    margin: 0 auto; /*centralizar tudo*/
+    padding: 2rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container section{
+    flex:1;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr; /*2 colunas q ocupam msm tamanho*/
+    gap: 6.25rem;
+    align-content: center; /*alinhar verticalmente*/
+}

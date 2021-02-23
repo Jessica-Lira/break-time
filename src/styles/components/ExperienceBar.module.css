@@ -1,0 +1,25 @@
+.experienceBar {
+    display: flex;
+    align-items: center;
+}
+
+.experienceBar > div { /* '>' pega somente o que está dentro do elemento */
+    flex: 1; /*ocupar o máximo de largura possível*/
+    height: 4px;
+    border-radius: 4px;
+    background: var(--gray-line);
+    margin: 0 1.5rem;
+    position: relative;
+}
+
+.experienceBar > div > div {
+    height: 4px;
+    border-radius: 4px;
+    background: var(--green);
+}
+
+span.currentExperience{
+    position: absolute;
+    top: 12px;
+    transform: translate(-50%); /*para o numero ficar centralizado pelo meio!*/
+}
