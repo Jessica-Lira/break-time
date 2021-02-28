@@ -1,0 +1,19 @@
+.navBarContainer {
+    background: var(--blue);
+    height: 100%;
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+
+    position: fixed;
+
+    display: flex;
+    align-items: center;
+    
+    padding: 0 1.8rem ;
+}
+
+.navBarContainer ul {
+    list-style: none;
+
+}
