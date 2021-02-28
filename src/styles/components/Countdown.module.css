@@ -82,3 +82,7 @@
     cursor: not-allowed;
     border-bottom: medium solid var(--green);
 } 
+
+.countdownButton svg { /*distancia do ico do button*/
+    margin-left: 1rem;
+}

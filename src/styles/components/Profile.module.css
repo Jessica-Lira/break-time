@@ -27,3 +27,17 @@
 .profileContainer div p img {
     margin-right: 0.5rem;
 }
+
+/**themes***/
+.profileRow {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+  
+.profileRow svg {
+    color: #F2C94C;
+    font-size: 46px;
+    cursor: pointer;
+    margin-left: 4rem;
+}
